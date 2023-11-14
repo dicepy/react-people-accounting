@@ -22,11 +22,15 @@ export class User extends Component {
                     })
                 }} className={classes.icon}/>
                 <h3 className={classes.info}>
-                    {this.user.firstname} {this.user.lastname}</h3>
-                <p className={classes.bio}>
-                    {this.user.bio}</p>
-                <b className={classes.bio}>
-                    {this.user.isHappy ? "Счастлив" : "Не особо"} </b>
+                    {this.user.first_name} {this.user.last_name}
+                </h3>
+                <img src={this.user.avatar} />
+                <p className={classes.email}>
+                    {this.user.email}
+                </p>
+                <b className={classes.email}>
+                    {this.user.isHappy ? "Счастлив" : "Не особо"} 
+                </b>
                 {this.state.editForm && <AddUser user={this.user} onAdd={this.props.onEdit}/>}
             </div>
         )
