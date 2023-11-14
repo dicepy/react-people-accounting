@@ -1,0 +1,39 @@
+.form_el{
+    width: 90%;
+    padding: 15px 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 5px;
+    border: 0;
+    background-color: wheat;
+    border-radius: 5px;
+    outline: none;
+}
+
+.check{
+    height: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 14px;
+}
+
+.btn{
+    background-color: black;
+    color: blueviolet;
+    color: white;
+    transition: transform .3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+
+.form{
+    margin: 20px;
+
+}

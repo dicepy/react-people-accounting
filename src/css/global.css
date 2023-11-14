@@ -11,9 +11,16 @@ body{
 }
 main{
     float: left;
+    width: 80%;
+    margin-left: 10px;
 }
 
 aside{
-    width: 200px;
+    width: 300px;
     float: right;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
 }
